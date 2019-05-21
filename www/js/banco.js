@@ -6,7 +6,7 @@ $(document).on("click","#cadastrar",function(){
 
     $.ajax({
         type:"post", //como enviar
-        url:"https://mobile2i2-jussimar.c9users.io/webservice/cadastra.php",//para onde enviar
+        url:"https://teste1-yvolorenzo.c9users.io/webservice/cadastra.php",//para onde enviar
         data:parametros,//o que enviar
         //se der certo
         success: function(data){
@@ -21,3 +21,7 @@ $(document).on("click","#cadastrar",function(){
         }
     });    
 });
+
+function ListarPagina(){
+	location.href="lista.html";
+}
