@@ -1,0 +1,13 @@
+h1{
+  color: white;
+  text-align: center;
+}
+.btn{
+  border-radius: 60px;
+  width: 50%;
+  margin-left: 25%;
+  background: rgb(73, 22, 212);
+}
+label{
+  color: white;
+}
